@@ -1,0 +1,105 @@
+<!DOCTYPE HTML>
+<!--
+	Hyperspace by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Generic - Hyperspace by HTML5 UP</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Header -->
+			<header id="header">
+				<a href="index.html" class="title">RN</a>
+				<nav>
+					<ul>
+						<li><a href="index.html">Home</a></li>
+						<li><a href="generic.html" class="active">Contenido</a></li>
+					</ul>
+				</nav>
+			</header>
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Main -->
+					<section id="main" class="wrapper">
+						<div class="inner">
+							<h1 class="major">Deep Photo Style Transfer</h1>
+							<span class="image fit"><img src="images/dlpe2.jpg" alt="" style="padding: 0px 300px;"/></span>
+							<div class="text" style="margin:0px 200px">
+								<p>La transferencia de estilo neuronal es una técnica de optimización que se usa para tomando dos imágenes, una imagen de contenido, una imagen de referencia de estilo (como una obra de arte de un pintor famoso), para combinarlas de tal manera que parece que se “pinta” la foto de entrada con la imagen de estilo.</p>
+								<h2>Desafíos</h2>
+								<p>El objetivo es lograr efectos locales muy drásticos, por ejemplo, para encender las luces en Ventanas de rascacielos.
+									 Por otro lado, estos efectos no deben distorsionar los bordes y los patrones regulares, por ejemplo, para que las ventanas
+									 permanecen alineadas en una cuadrícula. Formalmente, buscamos una transformación que puede afectar fuertemente los colores
+									 de la imagen mientras no se pierda ningún efecto geométrico, es decir, nada se mueve o distorsiona.<p>
+								<p>La transferencia debe respetar la semántica de la escena. Por ejemplo, en un paisaje urbano, la apariencia de los edificios
+									 debe ser emparejado a edificios, y cielo a cielo; No es aceptable hacer que el cielo se vea como un edificio.<p>
+								<h2>Pruebas</h2>
+								<p>Primero se realizo una prueba con imagenes originales del proyecto para ver si los resultados eran parecidos a los mostrados.<p>
+									<table>
+										<tr>
+										  <td><span class="image fit"><img src="images/in11.png" alt="" style="height:200px; width:auto; "/></span></td>
+										  <td><span class="image fit"><img src="images/tar11.png" alt="" style="height:200px; width:auto; "/></td>
+										  <td><span class="image fit"><img src="images/faceOut.png" alt="" style="height:200px; width:auto; "/></span></td>
+
+										</tr>
+
+										<tr>
+											<td><span class="image fit"><img src="images/in31.png" alt="" style="height:130px; width:auto; "/></span></td>
+											<td><span class="image fit"><img src="images/city.png" alt="" style="height:130px; width:auto; "/></td>
+											<td><span class="image fit"><img src="images/outCity.png" alt="" style="height:130px; width:auto; "/></span></td>
+										</tr>
+
+										<tr>
+											<td><span class="image fit"><img src="images/h3.png" alt="" style="height:100px; width:auto; "/></span></td>
+											<td><span class="image fit"><img src="images/h1.png" alt="" style="height:100px; width:auto; "/></td>
+											<td><span class="image fit"><img src="images/result.png" alt="" style="height:100px; width:auto; "/></span></td>
+										</tr>
+
+										<tr>
+										  <td>Input</td>
+										  <td>Style</td>
+										  <td>Result</td>
+										</tr>
+									</table>
+									<h2>Dependencias</h2>
+									<li><a href="https://www.tensorflow.org/">Tensorflow</a></li>
+									<li><a href="https://www.numpy.org">Numpy</a></li>
+									<li><a href="https://pypi.python.org/pypi/Pillow/">Pillow</a></li>
+									<li><a href="https://www.scipy.org/">Scipy</a></li>
+									<li><a href="https://pypi.python.org/pypi/pycuda">PyCUDA</a></li>
+							</div>
+
+						</div>
+					</section>
+
+			</div>
+
+		<!-- Footer -->
+			<footer id="footer" class="wrapper alt">
+				<div class="inner">
+					<ul class="menu">
+						<li>&copy; Untitled. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+					</ul>
+				</div>
+			</footer>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
